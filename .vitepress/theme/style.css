@@ -1,0 +1,25 @@
+@import 'katex/dist/katex.min.css';
+
+/* 移动端表格横向滚动 */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* 移动端阅读优化 */
+@media (max-width: 768px) {
+  .vp-doc {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .vp-doc h1 { font-size: 1.5rem; }
+  .vp-doc h2 { font-size: 1.25rem; }
+  .vp-doc h3 { font-size: 1.1rem; }
+}
+
+/* KaTeX / 数学公式行高适配 */
+.vp-doc .katex {
+  font-size: 1.05em;
+}
