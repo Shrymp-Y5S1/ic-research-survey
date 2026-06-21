@@ -69,7 +69,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/Shrymp-Y5S1/ic-research-survey' }
     ]
   }
 })

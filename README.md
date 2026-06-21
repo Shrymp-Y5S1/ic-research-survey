@@ -26,7 +26,7 @@ npm run docs:preview
 
 ## 部署
 
-通过 Netlify 自动部署，`main` 分支推送后自动触发构建。
+通过 GitHub Actions 自动部署至 [GitHub Pages](https://shrymp-y5s1.github.io/ic-research-survey/)，`main` 分支推送后自动触发构建。
 
 ## 技术栈
 
