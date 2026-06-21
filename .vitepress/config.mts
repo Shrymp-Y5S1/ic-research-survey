@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 import katex from 'markdown-it-katex'
 
 export default defineConfig({
+  base: '/ic-research-survey/',
   title: 'FPGA Bitstream 调研总览',
-  description: 'Gen 4 位流几何统一编址 — 开源项目与学术论文调研',
+  description: 'FPGA 位流几何统一编址 — 开源项目与学术论文调研',
   lang: 'zh-CN',
 
   srcExclude: ['**/research_report/**', '**/node_modules/**', '**/.claude/**'],
